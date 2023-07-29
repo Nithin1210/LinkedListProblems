@@ -14,6 +14,7 @@ public class Program
         list.Add(33);
         list.Add(44);
       
+        list.InserAtParticularPosition(2, 40);
 
         list.Display();
 
