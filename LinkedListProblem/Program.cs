@@ -15,7 +15,7 @@ public class Program
         list.Add(44);
       
         list.InserAtParticularPosition(2, 40);
-
+        list.RemoveFirstNode();
         list.Display();
 
 
