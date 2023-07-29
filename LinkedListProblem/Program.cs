@@ -9,13 +9,15 @@ public class Program
           
             Console.WriteLine("!! Linked List Operation !!");
             LinkedList list = new LinkedList();
-        
-            list.AddInReverseOrder(52);
-            list.AddInReverseOrder(30);
-            list.AddInReverseOrder(75);
 
-            list.Display();
+        list.Add(22);
+        list.Add(33);
+        list.Add(44);
+      
+        list.InserAtParticularPosition(2, 40);
 
-        
+        list.Display();
+
+
     }
 }
