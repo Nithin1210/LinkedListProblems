@@ -17,6 +17,7 @@ public class Program
 
         int num = list.Search(33);
         Console.WriteLine("Position found in :" + num);
+        list.DeleteNodeAtParticularPosition(1);
 
         list.Display();
 
