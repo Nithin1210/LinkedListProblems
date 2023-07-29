@@ -14,9 +14,9 @@ public class Program
         list.Add(33);
         list.Add(44);
       
-        list.InserAtParticularPosition(2, 40);
-        list.RemoveFirstNode();
-        list.RemoveLastNode();
+
+        int num = list.Search(33);
+        Console.WriteLine("Position found in :" + num);
 
         list.Display();
 
